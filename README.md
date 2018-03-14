@@ -1,17 +1,18 @@
-# nlp-example
+# nlp-ceo-speech
 Description of using Natural Language Processing in creating business intelligence from a research perspective
 
 ## Background
 The following work is part of academic research being conducted by Dr. Shavin Malhotra (University of Waterloo) and Dr. Phil Zhu (University of San Diego). Materials related to research were obtained with permission from Thomson Reuters (TR). 
 
 The objective of the research is to identify "Big Five Personality Traits" and speech patterns of CEOs from earnings call transcripts. Upon identifying scores about such traits correlations with CEO performance such as salary or number of successful acquisitions can be measured.  
+
 [Here is a link](http://journals.sagepub.com/doi/abs/10.1177/0001839217712240) to a recent journal article on the subject of CEO extraversion and their performance in acquisitions and mergers.
 
 [This link](https://asqblog.com/2018/01/17/malhotra-reus-zhu-roelofsen-2017-the-acquisitive-nature-of-extraverted-ceos/) provides an interview with the authors of the papers, discussing a few more interesting details about the study. 
 
 This work was carried out using Python, NLTK, PyRegex on Amazon Web Services cloud servers in an Ubuntu 12.04LTS environment. 
 
-##Available Data
+## Available Data
 Earnings Call Transcripts of 2,381 CEOs from S&P 1500 firms were collected from the period 2004 to 2015. This yielded 78,000+ PDF files. 
 
 A file typically looks something like this: [Interim 2016 AGL Energy Ltd Earnings Call](https://pastebin.com/Npcp3HCM) 
@@ -72,11 +73,8 @@ The output of Mairesse's 2007 Personality Recognizer are on a scale from 1 to 10
 
 Note: Extraversion is also spelt as extroversion. 
 
-Extraversion - extr
-Stability or Neurotism - stab
-Agreeableness - agre
-Conscientiousness - cons
-Openness - open
+Extraversion - extr  Stability or Neurotism - stab  Agreeableness - agre  Conscientiousness - cons  Openness - open
+
 
 | ticker | ceo           | extr  | stab  | agre  | cons  | open  |   | ibm_openn | ibm_consc | ibm_extra | ibm_agree | ibm_emoti |
 |--------|---------------|-------|-------|-------|-------|-------|---|-----------|-----------|-----------|-----------|-----------|
